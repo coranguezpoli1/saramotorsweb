@@ -1,0 +1,4 @@
+*.o
+*.class
+build/
+node_modules/
