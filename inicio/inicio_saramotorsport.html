@@ -2,82 +2,128 @@
 <html lang="es">
 <head>
 	<meta charset="iso-8859-1" />
-	<meta name="description" content="Pagina inicio de saramotorsport" />
-	<meta name="keyboards" content="HTML5, CSS3, JavaScript" />
+	<meta name="description" content="!Bienvenido a Saramotorsportsuaemex! Donde te mostraremos quienes somos, que hacemos, y hacia donde vamos; sobre nuestra competencia equipo y vehiculos." />
+	<meta name="keyboards" content="Racing, racer, Baja, Baja racing, ingenieros, estudiantes, equipo, motorsport, motor, todo terreno" />
+
+
 	<title>Inicio_saramotorsport</title>
+
+	<!-- Main CSS file-->
 	<link rel="stylesheet" href="stylesheet_inicio.css" />
+	
+	<!--Google fonts-->
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@100..900&display=swap" rel="stylesheet">
+
 </head>
 <!-- body   -->
 <body>
 <div id="agrupar">
 
 	<!-- open main header -->
-	<header id="cabecera">
-		<h1>Titulo de la pagina inicio de sara</h1>
+	<header id="cabecera ">
+		<div class="contenedor-cabecera">
+			<div class="logo-cabecera">
+				<a href="#"><img src="./inicio_saramotorsport_files/carro_dibujo_vistas.jpeg" alt="logo del capitulo estudiantil saramotorsportsuaemex"></a>
+				<h1 >Titulo de la pagina inicio de sara</h1>	
+			</div>
+			
+
+				<!-- open main navegation bar -->
+			<nav id="navegador">
+				<ul>
+					<li><a href="C:/Users/coran/Paginas_web/saramotorsweb/inicio/inicio_saramotorsport.html">INICIO</a></li>
+					<li><a href="C:/Users/coran/Paginas_web/saramotorsweb/baja_sae/baja_sae_saramotorsport.html">BAJA SAE</a></li>
+					<li><a href="C:/Users/coran/Paginas_web/saramotorsweb/equipo/equipo_saramotorsport.html">EQUIPO</a></li>
+					<li><a href="C:/Users/coran/Paginas_web/saramotorsweb/historia/historia_saramotorsport.html">HISTORIA</a></li>
+					<li><a href="C:/Users/coran/Paginas_web/saramotorsweb/reclutas/reclutas_saramotorsport.html">RECLUTAMIENTO</a></li>
+					<li><a href="C:/Users/coran/Paginas_web/saramotorsweb/patrocinadores/patrocinadores_saramotorsport.html">PATROCINADORES</a></li>
+					<li><a href="C:/Users/coran/Paginas_web/saramotorsweb/donaciones/donaciones_saramotorsport.html">DONACIONES</a></li>
+					<li><a href="C:/Users/coran/Paginas_web/saramotorsweb/contactos/contactos_saramotorsport.html">CONTACTOS</a></li>
+				</ul>
+			</nav>
+			<!-- close main navegation bar -->
+		 </div>
 
 	</header>
 	<!-- close main header -->
 
-	<!-- open main navegation bar -->
-	<nav id="navegador">
-		<ul>
-			<li><a href="C:/Users/coran/Paginas_web/saramotorsweb/inicio/inicio_saramotorsport.html">INICIO</a></li>
-			<li><a href="C:/Users/coran/Paginas_web/saramotorsweb/baja_sae/baja_sae_saramotorsport.html">BAJA SAE</a></li>
-			<li><a href="C:/Users/coran/Paginas_web/saramotorsweb/equipo/equipo_saramotorsport.html">EQUIPO</a></li>
-			<li><a href="C:/Users/coran/Paginas_web/saramotorsweb/historia/historia_saramotorsport.html">HISTORIA</a></li>
-			<li><a href="C:/Users/coran/Paginas_web/saramotorsweb/reclutas/reclutas_saramotorsport.html">RECLUTAMIENTO</a></li>
-			<li><a href="C:/Users/coran/Paginas_web/saramotorsweb/patrocinadores/patrocinadores_saramotorsport.html">PATROCINADORES</a></li>
-			<li><a href="C:/Users/coran/Paginas_web/saramotorsweb/donaciones/donaciones_saramotorsport.html">DONACIONES</a></li>
-			<li><a href="C:/Users/coran/Paginas_web/saramotorsweb/contactos/contactos_saramotorsport.html">CONTACTOS</a></li>
-		</ul>
-	</nav>
-	<!-- close main navegation bar -->
+	<!--Open hero's slideshow-->
+	<div class="contenedor-hero">
+		<div class="muestra">
+			<img src="./inicio_saramotorsport_files/carro_ia_1.png" alt="muestra hero 1">
+			<h1 class="text-hero">
+				Sara <br> Motor  Sports <br> UAEMEX
+			</h1>
+		</div>
+		<div class="muestra">
+			<img src="./inicio_saramotorsport_files/carro_dibujo_vistas.jpeg" alt="muestra hero 2">
+			<h1 class="text-hero">
+				Sara <br> Motor  Sports <br> UAEMEX
+			</h1>			
+		</div>
+		<div class="muestra">
+			<img src="./inicio_saramotorsport_files/carro_ia_1.jpeg" alt="muestra hero 3">
+			<h1 class="text-hero">
+				Sara <br> Motor Sports <br> UAEMEX
+			</h1>
+		</div>
+	</div><!-- Close HERO's slideshow-->
+
+	<!--Hero's dots-->
+	<div id="puntos">
+		<span class="punto activo" data-slide="1"></span>
+		<span class="punto" data-slide="2"></span>
+		<span class="punto" data-slide="3"></span>
+	</div><!--Close hero's dots-->
+
 
 	<!-- open main information-->
-	<section id="seccion">
-		<article>
-			<header>
-				<hgroup>
-					<h1>Titulo de este articulo</h1>
-					<h2>Subtitulo de este articulo</h2>
-				</hgroup>
-				<!-- fecha de publicado -->
-				 <time datetime="2026-01-19" pubdate>19 de enero del 2026</time>
+	 <main>
+		<!-- Open our summary -->
+		<div class="#">	
+			<section id="breve-nosotros">
+				<!-- open figure 
+				los figure no afectan la estructura ni el flujo del documento-->
+				<figure id="figura-para-articulo1">
+					<img src="./inicio_saramotorsport_files/carro_ia_1.png" style="width:100%; height: auto;" alt="carro de ejemplo" />
+					<figcaption>
+						Figura 1: Esta es la imagen del primer articulo
+					</figcaption>
+				</figure><!--Close figure-->
+				
+				<article clsse="texto-breve-nosotros">
+					<header>
+						<h1>Nosotros</h1>
+						<!-- fecha de publicado -->
+						<time datetime="2026-01-19" pubdate>19 de enero del 2026</time>
+					</header>
+					<p class="texto-articulo">Nosotros somos un capitulo estudiantil de la universidad autonoma del estado de mexico.</p>
+				</article>
+				<a href="#" class="btn-nosotros">Mas sobre nosotros</a>
+			</section>
+		</div>
+		<!--Close our summary-->
+	</main>
+	<!-- Close main information -->
 
-			</header>
-		<p style="font-size: 20px">Texto de este articulo</p>
-		<!-- open figure 
-		 los figure no afectan la estructura ni el flujo del documento-->
-		 <figure>
-			<img src="./inicio_saramotorsport_files/carro_ia_1.png" style="width: 50%" alt="carro de ejemplo" />
-			<figcaption>
-				Figura 1: Esta es la imagen del primer articulo
-			</figcaption>
-		 </figure>
-			<footer>
-				<p>comentario de este articulo</p>
-			</footer>
-		</article>
-	</section>
-	<!-- close main information -->
-
-	<!--open sidebar -->
-	<aside id="lateral">
-		<blockquote>Mensaje uno lateral</blockquote>
-	</aside>
-	<!-- close sidebar -->
 
 	<!-- open main footer -->
 	<footer id="pie">
-		<address>
-			<a href="https://www.instagram.com/saramotorsportsuaemx/">@saramotorsportsuaemex</a>
-		</address>
-                <address>
-                        <a href="#">@saesarajuanaart</a>
-                </address>
-                <address>
-                        <a href="#">uaemexsarajuana@gmail.com</a>
-                </address>
+		<!-- contacts-->
+		<div class="contactos">
+			<address>
+				<a href="https://www.instagram.com/saramotorsportsuaemx/">@saramotorsportsuaemex</a>
+			</address>
+			<address>
+				<a href="#">@saesarajuanaart</a>
+			</address>
+			<address>
+					<a href="#">uaemexsarajuana@gmail.com</a>
+			</address>
+		</div>
+		<!-- Close contacts-->
 		<small>
 			<p>
 				Derechos Reservados &copy; 2026 coranguezpoli1
